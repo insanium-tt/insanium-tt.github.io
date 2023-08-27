@@ -1,0 +1,78 @@
+@font-face{
+  font-family: "monospace";
+  src: url('monospace.ttf') format("ttf");
+}
+
+:root {
+  font-size: 1rem;
+  --medium-gray: #ddd;
+  --gray: #6a6a6a;
+}
+
+html {
+  font-family: monospace;
+  overflow-y: scroll
+}
+
+img {
+  border-bottom: none;
+}
+
+a:hover {
+  border-bottom: 1.5px solid var(--gray);
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1.5px solid var(--medium-gray);
+  color: #e8e6e3;
+}
+
+body {
+  background-color: #181a1b;
+  color: #e8e6e3;
+}
+
+#main,
+#header,
+aside,
+img {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+li {
+	list-style: none;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+li:before {
+	content: " - ";
+	padding-right: 5px;
+}
+
+
+#header {
+  font-family: monospace;
+  text-align: center;
+}
+
+.grayscale {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: grayscale(100%);
+  z-index:9;
+}
+
+#god {
+  -webkit-filter: none;
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  filter: none;
+  z-index:10;
+
+}
+
