@@ -1,1 +1,0 @@
-As of now, my very existence will be almost entirely forgotten after I die. Perhaps the records of my actions will be immortalized in the datacenters of some private corporation, gently influencing a machine learning model towards some arbitrary bound. The only constant in my life is myself, so who do I care what the nonconstant other thinks of my existence?
